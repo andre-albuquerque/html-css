@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(255, 255, 255, 0.089);
+        }
+        
+        header {
+            background-color: rgb(16, 16, 190);
+            color: white;
+            text-align: center;
+            box-shadow: black;
+        }
+
+        a {
+            color: white;
+        }
+
+        article {
+            background-color: rgb(205, 229, 243);
+            padding-bottom: 50px;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        article > aside {
+            background-color: rgb(134, 171, 194);
+        }
+        
+        footer {
+            font-size: 12px;
+            background-color: lightgray;
+            color: black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id='assuntos'>
+            <p>Política Mundo</p>
+        </section>
+        <section id='noticias'>
+            <article>
+                <h2>A política no mundo</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio repellendus obcaecati ab nesciunt tempora. Odio non modi deserunt velit ad esse excepturi architecto exercitationem veniam, illum ipsa, tempora quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officia ad, praesentium itaque consectetur dolorem voluptas beatae nesciunt mollitia assumenda error aperiam, eum repellendus totam suscipit architecto perspiciatis, quasi tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum ipsa nobis incidunt officiis ad magnam! Officiis iste error repudiandae modi officia consequatur, nam voluptatem, enim, illo fuga quam quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, omnis molestiae. Quidem vitae sint nulla expedita, dolorum ex. Accusamus non quas a, velit inventore repudiandae? Atque assumenda fugit odit quod?
+                </p>
+                <aside>
+                    <p>Autor: José da Silva.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>@ Copyright 2022</p>
+        <p>Desenvolvido por @euandreleo</p>
+    </footer>
+     
+</body>
+</html>
